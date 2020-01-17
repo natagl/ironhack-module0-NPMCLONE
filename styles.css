@@ -1,0 +1,207 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  color: black;
+  padding-top: 10px;
+  height: 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 20px;
+}
+
+h2 {
+  font-size:40px;
+  font-weight: bold;
+}
+h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+}
+
+.topli li {
+  float: right;
+  color: white;
+  display: block;
+  margin-block-start: -2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 5px;
+  padding-inline-start: 0px;
+}
+
+header input[type=text] {
+  -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid grey;
+    color: grey;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 30px;
+    max-width: 70%;
+    text-align: left;
+    width: 70%;
+    -ms-flex: 1 1 .000000001px;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: .000000001px;
+    flex-basis: .000000001px;
+}
+
+#npmlogo {
+  /*margin: 10px 0 0 10px;*/
+  width : 100px;
+}
+
+#bearlogo {
+  width: 30px;
+  /*margin-block-start: -1em;*/
+}
+
+.secondDiv {
+  display: block;
+  color: white;
+  background-image: url("images/city-scape.svg");
+  padding: 5% 10%;
+}
+
+.Build {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.button1{
+  background-color: rgb(240, 146, 51);
+  color: white;
+  padding: 10px; 
+  width: 400px;
+  height: 10px; 
+  text-align: center; 
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+.collb {
+  width: 500px;
+  float: left;
+}
+
+#secondSec {
+  display: block;
+  background-color: rgb(32, 101, 136);
+  color: white;
+  padding: 5% 10%;
+  height: 350px;
+}
+
+.bullet {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.collbTitle {
+  margin-left: 42%;
+}
+
+.button2{
+  background-color: red;
+  color: white;
+  padding: 10px; 
+  width: 400px;
+  height: 10px; 
+  text-align: center; 
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#thirdSec {
+ display: block;
+  color: white;
+  padding: 5% 10%;
+  height: 350px; 
+  background-image: url("images/forklift.svg");
+}
+
+  .button3{
+  background-color: #34495e;
+  color: white;
+  padding: 10px; 
+  width: 400px;
+  height: 10px; 
+  text-align: center; 
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.fourthSec{
+  display: block;
+  color: white;
+  padding: 5% 10%;
+  height: 350px; 
+}
+
+.fourthHead {
+text-align: center;
+color: gray;
+}
+
+.fourthSecImg {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+.fourthSecImg p {
+  text-align: center;
+  color: grey;
+}
